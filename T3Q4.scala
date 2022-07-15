@@ -17,7 +17,7 @@ object T3Q4 {
   }
 
   def shippingcost(x: Int): Double = {
-    if(x<=50) x*3.00 else x*3.00 + (x-50)*0.75
+    if(x<=50) x*3.00 else 50*3.00 + (x-50)*0.75
   }
 
   def total_wholesalecost(x: Int): Double = {
